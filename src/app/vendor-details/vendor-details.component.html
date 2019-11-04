@@ -1,0 +1,43 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h2>Vendor Details</h2>
+       
+    </div>
+    <div class="panel-body">
+<hr/>
+<div *ngIf="vendor">
+    <div>
+        <label><b>Vendor Name:</b></label>{{vendor.vnName}}
+    </div>
+    <div>
+        <label><b>Vendor Address:</b></label>{{vendor.vnAddress}}
+    </div>
+    <div>
+        <label><b>Vendor Location:</b></label>{{vendor.vnLocation}}
+    </div>
+    <div>
+         <label><b>Vendor Service:</b></label>{{vendor.vnService}}
+    </div>
+    <div>
+        <label><b>Vendor Pincode:</b></label>{{vendor.vnPincode}}
+    </div>
+    <div>
+        <label><b>Contact Person Name:</b></label>{{vendor.name}}
+    </div>
+    <div>
+        <label><b>Department:</b></label>{{vendor.department}}
+    </div>
+    <div>
+        <label><b>Email:</b></label>{{vendor.email}}
+    </div>
+    <div>
+        <label><b>Mobile:</b></label>{{vendor.phone}}
+    </div>
+    
+ </div>
+<br>
+<br>
+<button (click)="list()" class ="btn btn-primary">Back to Vendor List</button>
+<br>
+</div>
+</div>

@@ -1,0 +1,17 @@
+.ng-valid[required], .ng-valid.required,.ng-valid.pattern {
+    border-left: 5px solid #42A948; /* green */
+  }
+  
+  .ng-invalid:not(form)  {
+    border-left: 5px solid #a94442; /* red */
+  }
+
+.div-header{
+  width: 95%;
+  float: left;
+  text-align: center;
+}
+.div-btn{
+  width: 5%;
+  float: left;
+}
